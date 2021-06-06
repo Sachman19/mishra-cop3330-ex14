@@ -13,6 +13,8 @@ public class Main {
         System.out.print("What is the order amount? ");
         double order = input.nextDouble();
 
+        input.nextLine();
+
         System.out.print("What is the state initials?. ");
         String state = input.nextLine();
 
